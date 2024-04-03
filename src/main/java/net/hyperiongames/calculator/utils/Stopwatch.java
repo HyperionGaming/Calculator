@@ -87,6 +87,7 @@ public final class Stopwatch {
         }
     }
 
+    @SuppressWarnings("UnnecessaryDefault")
     private static String abbreviate(TimeUnit unit) {
         return switch (unit) {
             case NANOSECONDS -> "ns";

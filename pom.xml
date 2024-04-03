@@ -5,7 +5,7 @@
   <artifactId>Calculator</artifactId>
   <version>1.0</version>
   <name>Calculator</name>
-  <url>http://maven.apache.org</url>
+  <url>https://hyperiongames.net</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
