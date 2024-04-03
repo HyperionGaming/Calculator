@@ -15,7 +15,7 @@ public class Calculator extends JFrame implements ActionListener {
     private String operator = "";
 
     public static void main(String[] args){
-        SwingUtilities.invokeLater(() ->{
+        SwingUtilities.invokeLater(() -> {
             Calculator calculatorApp = new Calculator();
             calculatorApp.setVisible(true);
         });
@@ -57,6 +57,7 @@ public class Calculator extends JFrame implements ActionListener {
         for(String label : buttonLabels){
             JButton button = new JButton(label);
             button.addActionListener(this);
+            button.setFont(new Font(Font.DIALOG_INPUT, font.getStyle(), 50));
 
             buttonPanel.add(button);
         }
