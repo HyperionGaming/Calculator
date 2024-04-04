@@ -49,7 +49,7 @@ public class Calculator extends JFrame {
         textField = new JTextField();
         textField.setEditable(false);
 
-        textField.setFont(new Font(Font.DIALOG_INPUT, textField.getFont().getStyle(), 50));
+        textField.setFont(new Font(Font.SANS_SERIF, textField.getFont().getStyle(), 50));
 
         add(textField, BorderLayout.NORTH);
 
